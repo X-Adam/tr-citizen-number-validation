@@ -4,7 +4,7 @@ namespace XAdam;
 
 class TrCitizenNumberValidation
 {
-    protected static $cache = [];
+    protected static array $cache = [];
 
     public static function validate(int $citizen_number): bool
     {

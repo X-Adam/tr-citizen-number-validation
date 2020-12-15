@@ -18,12 +18,12 @@ Turkey citizen number (TC No) validation class.
 
 ## Requirements
 
-PHP >=7.0. Other than that, this library has no requirements.
+PHP >=7.4. Other than that, this library has no requirements.
 
 ## Install
 
 ```bash
-$ composer require x-adam/tr-citizen-number-validation:"~3"
+$ composer require x-adam/tr-citizen-number-validation:"~4"
 ```
 
 ## Example Usage
