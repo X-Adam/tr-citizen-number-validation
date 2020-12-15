@@ -1,0 +1,23 @@
+{
+    "name": "x-adam/tr-citizen-number-validation",
+    "description": "Turkey citizen number (TC No) validation class.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehmet ÖĞMEN",
+            "email": "www@mehmetogmen.com.tr",
+            "homepage": "https://www.mehmetogmen.com.tr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap": [
+            "./src/TrCitizenNumberValidation.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
