@@ -6,7 +6,7 @@ class TrCitizenNumberValidation
 {
     protected static $cache = [];
 
-    public static function validate($citizen_number)
+    public static function validate(int $citizen_number): bool
     {
         if (isset(static::$cache[$citizen_number])) {
             return static::$cache[$citizen_number];
